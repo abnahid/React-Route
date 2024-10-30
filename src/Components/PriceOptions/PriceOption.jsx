@@ -16,12 +16,12 @@ const PriceOption = ({ option }) => {
       <ul role="list" className="mb-8 space-y-4 text-left flex-grow">
         {features.map((feature, index) => (
           <li className="flex items-center space-x-3" key={index}>
-            <FaCheckCircle className="text-green-500"></FaCheckCircle>
+            <FaCheckCircle className="text-violet-800"></FaCheckCircle>
             <span>{feature}</span>
           </li>
         ))}
       </ul>
-      <a href="#" className="text-white bg-green-500 hover:bg-green-600  btn">
+      <a href="#" className="text-white bg-violet-800 hover:bg-violet-600  btn">
         Get started
       </a>
     </div>

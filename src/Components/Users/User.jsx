@@ -14,7 +14,9 @@ const User = ({ user }) => {
       <td>
         <div className="flex items-center gap-3">
           <div className="avatar">
-            <div className="mask mask-squircle h-12 w-12 bg-slate-400"></div>
+            <div className="mask mask-squircle h-12 w-12 bg-slate-400">
+              <img src="/public/th.jpeg" alt="" />
+            </div>
           </div>
           <div>
             <div className="font-bold">{name}</div>
